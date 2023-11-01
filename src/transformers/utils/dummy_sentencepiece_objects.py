@@ -99,6 +99,12 @@ class LlamaTokenizer(metaclass=DummyObject):
     def __init__(self, *args, **kwargs):
         requires_backends(self, ["sentencepiece"])
 
+class LuminaVlm1Tokenizer(metaclass=DummyObject):
+    _backends = ["sentencepiece"]
+
+    def __init__(self, *args, **kwargs):
+        requires_backends(self, ["sentencepiece"])
+
 
 class M2M100Tokenizer(metaclass=DummyObject):
     _backends = ["sentencepiece"]

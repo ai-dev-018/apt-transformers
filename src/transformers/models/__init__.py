@@ -118,6 +118,7 @@ from . import (
     levit,
     lilt,
     llama,
+    luminavlm1,
     longformer,
     longt5,
     luke,

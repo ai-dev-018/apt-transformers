@@ -39,6 +39,8 @@ from transformers import (
     GPTJForCausalLM,
     LlamaForCausalLM,
     LlamaTokenizer,
+    LuminaVlm1ForCausalLM,
+    LuminaVlm1Tokenizer,
     OpenAIGPTLMHeadModel,
     OpenAIGPTTokenizer,
     OPTForCausalLM,
@@ -71,6 +73,7 @@ MODEL_CLASSES = {
     "gptj": (GPTJForCausalLM, AutoTokenizer),
     "bloom": (BloomForCausalLM, BloomTokenizerFast),
     "llama": (LlamaForCausalLM, LlamaTokenizer),
+    "luminavlm1": (LuminaVlm1ForCausalLM, LuminaVlm1Tokenizer),
     "opt": (OPTForCausalLM, GPT2Tokenizer),
 }
 

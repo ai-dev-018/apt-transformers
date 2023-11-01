@@ -201,6 +201,13 @@ else:
                     "LlamaTokenizerFast" if is_tokenizers_available() else None,
                 ),
             ),
+            (
+                "luminavlm1",
+                (
+                    "LuminaVlm1Tokenizer" if is_sentencepiece_available() else None,
+                    "LuminaVlm1TokenizerFast" if is_tokenizers_available() else None,
+                ),
+            ),
             ("longformer", ("LongformerTokenizer", "LongformerTokenizerFast" if is_tokenizers_available() else None)),
             (
                 "longt5",
