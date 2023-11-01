@@ -134,6 +134,7 @@ from . import (
     megatron_gpt2,
     mgp_str,
     mistral,
+    lumina,
     mluke,
     mobilebert,
     mobilenet_v1,
